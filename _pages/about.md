@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Wellesley College </a>. <a href='#'> Massachusetts Institute of Technology.</a>.
+subtitle: <a href='https://www.wellesley.edu/cs'>Wellesley College </a>. <a href='https://interactive.mit.edu/publications'> Massachusetts Institute of Technology</a>.
 
 profile:
   align: right
