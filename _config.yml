@@ -276,7 +276,7 @@ scholar:
   last_name: [Horter]
   first_name: [Tiffany]
 
-  style: apa
+  style: acm-sigchi-proceedings
   locale: en
 
   source: /_bibliography/
