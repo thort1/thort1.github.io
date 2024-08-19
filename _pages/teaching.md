@@ -2,11 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses taught.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<h4> Tutor and Grader </h4>
+<ul>
+    <li> CS 235: Theory of Computation (2024) </li>
+    <li> CS 240: Foundations of Computer Systems (2021 - 2022, 2023) </li>
+</ul>
 
-Organize your courses by years, topics, or universities, however you like!
+<h4> Teaching Assistant </h4>
+<ul>
+    <li> Post-AP CS: App Development (2020) </li>
+    <li> Post-AP CS Data Structures (2019) </li>
+</ul>

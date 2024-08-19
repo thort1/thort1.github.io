@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-02-08 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+<a href="https://x.com/HRIPioneers/status/1755595336326742350"> Selected as the only undergraduate HRI Pioneer for the HRI Pioneers Workshop! </a>

@@ -1,81 +1,71 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Self-driving Mini Racecar
+description: MIT competition
+img: assets/img/robot-c7454c57cffaebd0c0b5002e1fd9155a.png
 importance: 1
-category: work
-related_publications: true
+category: robots
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this project, I was part of an MIT team which programmed a self-driving mini racecar. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<h4> Final Challenge </h4>
+<div class="d-flex flex-row mb-2">
+    <div class="col-sm mt-2 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ0dwXFsQUYKXGgxcOCO114LLWN9AN-QCPtb35o_a62ImfYl_GeIYYG9uXAr-wQm4yR8OpNC5sZkOiL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+In the final challenge, we ran a racecar around a track and a mini-city environment. 
+
+<h4> Path Planning </h4>
+<div class="d-flex flex-row mb-2">
+    <div class="col-sm mt-2 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQc-pFpdzyP9xWEbUEzPwdP8eSgiE7U0TgjtMLjCk8ZVslxAn8QpsWkunRicTplIJUsWGCj6b4OPMgl/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        <iframe class="pdf" src= "/assets/pdf/Lab%206%20-%20Pure%20Pursuit%20of%20Happyness%20_%20MIT%20Robotics%20Science%20and%20Systems%20Group%205%202022.pdf" width="100%" height="100%"></iframe>
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<button onclick="https://github.com/rss2022-5/path_planning" style="border-radius: 4px; background-color: #ffdddd">GitHub link</button>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<h4> Localization </h4>
+<div class="d-flex flex-row mb-2">
+    <div class="col-sm mt-2 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR-zVwsmdLXRpJkhxF5L_Pnms_jzMfDhNr7RPfMLOZezfnLRlolU7tFSOdPRi9u3c2MilAuBkniDrp7/embed?start=false&loop=false&delayms=3000"  frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        <iframe class="pdf" src= "/assets/pdf/6_141_Lab_5_Report.pdf" width="100%" height="100%"></iframe>
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<button onclick="https://github.com/rss2022-6/localization" style="border-radius: 4px; background-color: #ffdddd">GitHub link</button>
+
+<h4> Computer Vision </h4>
+<div class="d-flex flex-row mb-2">
+    <div class="col-sm mt-2 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5YJNgKpytoRR5Y0F4uoeBDD9WpqXt6ChAIudbzWY72OfnG90SyjdV5yGT_RDEIMHO0OGmLuzbJ0b7/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+    </div>
 </div>
+<button onclick="https://github.com/rss2022-6/visual_servoing" style="border-radius: 4px; background-color: #ffdddd">GitHub link</button>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<h4> Wallfollower and Safety Controller </h4>
+<div class="d-flex flex-row mb-2">
+    <div class="col-sm mt-2 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRcOSFDdbhqdqfRSNFmb-GQpRxXc6IRzvMn-XaMjA8yF86GqQQtHrPoBDcM5purwwjAYP4-xqN48aDm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        <iframe class="pdf" src= "/assets/pdf/6_141_Team_6_Lab_3_Report.pdf" width="100%" height="100%"></iframe>
+    </div>
 </div>
-```
-
-{% endraw %}

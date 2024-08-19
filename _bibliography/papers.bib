@@ -1,114 +1,49 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{10.1145/3610978.3638358,
+  abbr={HRI Pioneers},
+  title = {Building Each Other Up: {{Using}} Variation Theory to Build and Correct Human Mental Models of Robots},
+  booktitle = {Companion of the 2024 {{ACM}}/{{IEEE}} International Conference on Human-Robot Interaction},
+  author = {Horter, Tiffany},
+  year = {2024},
+  series = {Hri '24},
+  pages = {103--105},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  doi = {10.1145/3610978.3638358},
+  abstract = {As we begin to coexist with robots, we must be able to anticipate each other's future actions to avoid dangerous or inefficient situations. How can we build up human and robot conceptual models to predict how each other will behave? To do this, I study how to apply human concept learning theories, like variation theory, to human-robot interaction. I have found that the contrast step of variation theory (showing contrasting examples of policies when learning about robot motions) improves people's ability to predict motion in unseen settings. For my proposed PhD, I seek to connect this idea of improving a human's model of the robot with enabling the robot to correct the human's model or alter its own behavior based on its model of the shortcomings in the human's understanding.},
+  isbn = {9798400703232},
+  pdf = {https://dl.acm.org/doi/abs/10.1145/3610978.3638358?download=true},
+  keywords = {cognitive science,mental models,robot motion,variation theory},
+  selected={true},
+  preview = {Screenshot.png},
+  video = {https://www.linkedin.com/posts/human-robot-interaction-pioneers_hripioneers2024-hri2024-activity-7161361029354897410-YpdD}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@phdthesis{Horter.2024,
+  abbr={Thesis},
+  type = {Senior {{Thesis}}},
+  title = {Getting {{In Your Robot}}'s {{Head}}: {{Building Mental Models}} of {{Robots Using Human-Concept Learning}}},
+  author = {Horter, Tiffany, and Gadiraju, Vinitha and Booth, Serena and Shah, Julie A.},
+  year = {2024},
+  abstract = {To collaborate effectively and safely with machine partners, it is essential to understand and be able to predict how they will behave. This thesis explores how using variation theory [1], a human-concept learning theory from cognitive science, to select training demonstrations of agent/robot behavior impacts people's understanding of how the agent will act. By helping people improve their mental model of the artificial agents they interact with, the goal is to improve people's ability to predict their particular machine's behavior. To best teach people a concept, variation theory proposes a teaching method composed of four steps: familiarization, contrast, generalization, and fusion [1]. In prior work [2], the contrast step was compared to familiarization in the domain of a robotic arm's movement, and results suggested that contrast particularly helped people's understanding in unseen scenarios. In this study, the first three steps of variation were tested to determine which steps are most beneficial to human's learning of an agent's behavior in a self-driving domain and which, therefore, should be prioritized when training. To test differences in participants' ability to predict across these different teaching methods, a user study was run to establish the efficacy of each method by using each method to train people on various policies of a self-driving car's motion. Results suggested that being shown the combined steps of variation theory improve people's ability to predict agent behavior, especially in scenarios they were trained with. However, the step of generalization was particularly helpful for scenarios that subjects had not encountered, improving accuracy from familiarization by 9\%. Using the full steps of variation theory also increased people's trust in the agent, but results appeared to be policy-dependent. Interestingly, trust in the agent appears separate from people's true understanding of the agent's policy -- though contrast had the lowest overall correctness, people trained with that method had the highest trust in their agent at 65.9\%.},
+  school = {Wellesley College},
+  url = {https://repository.wellesley.edu/node/49369},
+  pdf = {https://repository.wellesley.edu/node/49369},
+  selected={true},
+  preview = {Contrast.gif},
+  slides = {ThesisPpt2Copy.pptx}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
+@inproceedings{HorterEtAl.a,
+  abbr={HRI Workshop},
+  title = {Varying {{How We Teach}}: {{Adding Contrast Helps Humans Learn}} about {{Robot Motions}}},
+  booktitle = {2023 {{HRI Workshop}} on {{Human-Interactive Robot Learning}}},
+  year = 2023,
+  author = {Horter, Tiffany and Glassman, Elena L. and Shah, Julie and Booth, Serena},
+  selected={true},
+  pdf = {https://glassmanlab.seas.harvard.edu/papers/HRI_2023_HIRL_Workshop__Learning_about_Robot_Motions_with_Variation_Theory.pdf},
+  abstract = {Learning how robots move is difficult, but theories of human concept learning can be applied to support humans in this task. We draw insights from the Variation Theory of Learning, a theory that has been validated in the learning sciences through decades of classroom- based studies. Variation Theory prescribes experiencing patterns of structured variation, where some aspects of concepts are held constant while other aspects vary. The result of experiencing these structured patterns is that human learners develop accurate and flexible conceptual models. Through a preliminary study, we show that using insights from Variation Theory improves humans' ability to predict robot motions: accuracy in predicting motions increases from 52.4\% using a familiarization-based strategy to 70.2\% using a Variation-based strategy. Applying Variation Theory especially increases the human's accuracy in predicting robot motions in novel settings (increasing from 50.0\% to 72.4\% accuracy).},
+  preview = {robot_motion.gif}
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }
