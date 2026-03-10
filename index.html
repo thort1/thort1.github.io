@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffany Horter — Research</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <a href="#" class="nav-name">Tiffany Horter</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#news">News</a>
+                <a href="#publications">Publications</a>
+                <a href="#projects">Projects</a>
+                <a href="#writings">Writings</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero container" id="about">
+        <div class="hero-grid">
+            <div class="hero-photo"><img src="images/Horter_Tiffany_pic.jpg" alt="Tiffany Horter"></div>
+            <div class="hero-text">
+                <h1>Tiffany Horter</h1>
+                <p class="subtitle">PhD Student in Computer Science</p>
+                <p class="affiliation">University of Oxford &middot; Department of Computer Science</p>
+                <p class="bio">
+                    I am a researcher working on human-AI and human-robot interaction. Currently, I am advised by
+                    <a href="https://www.cs.ox.ac.uk/people/niki.trigoni/">Prof. Niki Trigoni</a> and <a href="https://www.cs.ox.ac.uk/people/andrew.markham/">Andrew Markham</a> and collaborate with <a href="https://slbooth.com">Prof. Serena Booth</a>. Formerly at
+                    <a href="https://interactive.mit.edu">MIT's Interactive Robotics Group</a>,
+                    <a href="https://www.wellesley.edu/academics/department/computer-science">Wellesley</a>, and intern at Microsoft.
+                </p>
+                <div class="hero-links">
+                    <a href="https://scholar.google.com/citations?user=fiRwmhkAAAAJ" class="link-pill">Google Scholar</a>
+                    <a href="https://www.linkedin.com/in/tiffany-horter" class="link-pill">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="news">
+            <h2>News</h2>
+            <ul class="news-list">
+                <li>
+                    <time>Mar 2026</time>
+                    <span>Paper accepted at <strong>HRI 2026</strong>! </span>
+                </li>
+                <li>
+                    <time>Oct 2024</time>
+                    <span>Started my PhD at <strong>University of Oxford</strong>.</span>
+                </li>
+                <li>
+                    <time>Apr 2024</time>
+                    <span>Defended my undergraduate senior thesis: “Building Each Other Up: Using Variation Theory to Build and Correct Human Mental Models of Robots”.</span>
+                </li>
+                <li>
+                    <time>Feb 2024</time>
+                    <a href="https://x.com/HRIPioneers/status/1755595336326742350"> Selected as the only undergraduate HRI Pioneer for the HRI Pioneers Workshop!</a>
+                </li>
+                <li>
+                    <time>Mar 2023</time>
+                    <span>Presented at 2023 HRI Workshop on Human-Interactive Robot Learning.</span>
+                </li>
+                <!--
+                <li>
+                    <time>Mar 2026</time>
+                    <span>Paper accepted at <strong>Conference 2026</strong>! See you in [City].</span>
+                </li>
+                <li>
+                    <time>Jan 2026</time>
+                    <span>Started a research internship at <strong>Lab Name</strong>.</span>
+                </li>
+                <li>
+                    <time>Sep 2025</time>
+                    <span>Gave a talk on [topic] at <strong>Workshop Name</strong>.</span>
+                </li>
+                <li>
+                    <time>Jun 2025</time>
+                    <span>Received the <strong>Award Name</strong> fellowship.</span>
+                </li>
+                <li>
+                    <time>Jan 2025</time>
+                    <span>Paper on [topic] accepted at <strong>Conference 2025</strong>.</span>
+                </li>
+                -->
+            </ul>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+
+            <div class="pub-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="conference">Conference</button>
+                <button class="filter-btn" data-filter="journal">Journal</button>
+                <button class="filter-btn" data-filter="workshop">Workshop</button>
+            </div>
+
+            <ul class="pub-list">
+                <li class="pub-item" data-type="conference">
+                    <div class="pub-thumb"></div>
+                    <div class="pub-details">
+                        <h3 class="pub-title">Should Robots Comply with Our Instructions or Intentions?</h3>
+                        <p class="pub-authors"><strong>Tiffany Horter</strong>, Andrew Markham, Niki Trigoni, Serena Booth.</p>
+                        <p class="pub-venue">Human Robot Interaction Conference, 2026</p>
+                        <div class="pub-links">
+                            <button class="pub-abstract-toggle">Abstract</button>
+                            <a href="#">Paper</a>
+                            <button class="pub-bibtex-toggle">BibTeX</button>
+                        </div>
+                        <div class="pub-abstract">
+                            <p>Your abstract text goes here.</p>
+                        </div>
+                        <div class="pub-bibtex">
+                            <pre>#</pre>
+                        </div>
+                    </div>
+                </li>
+                <li class="pub-item" data-type="journal">
+                    <div class="pub-thumb"></div>
+                    <div class="pub-details">
+                        <h3 class="pub-title">Human-Interactive Robot Learning: Definition, Challenges, and Recommendations</h3>
+                        <p class="pub-authors">Kim Baraka, Ifrah Idrees, Taylor Kessler Faulkner, Erdem Biyik, Serena Both, Mohamed Chetouani, Daniel H. Grollman, Akanksha Saran, Emmanuel Senft, Silvia Tulli, Anna-Lisa Vollmer, Antonio Andriella, Helen Beierling, <strong>Tiffany Horter</strong>, Jens Kober, Isaac Sheidlower, Matthew E. Taylor, Sanne Van Waveren, Xuesu Xiao</p>
+                        <p class="pub-venue">Transactions on Human-Robot Interaction, Vol.15, No. 2, 2026.</p>
+                        <div class="pub-links">
+                            <button class="pub-abstract-toggle">Abstract</button>
+                            <a href="https://dl.acm.org/doi/pdf/10.1145/3779297">Paper</a>
+                            <button class="pub-bibtex-toggle">BibTeX</button>
+                        </div>
+                        <div class="pub-abstract">
+                            <p>Robot learning from humans has been proposed and researched for several decades as a means to enable
+                                robots to learn new skills or adapt existing ones to new situations. Recent advances in AI, including learning
+                                approaches like reinforcement learning and architectures like transformers and foundation models, combined
+                                with access to massive datasets, have created attractive opportunities to apply those data-hungry techniques
+                                to this problem. We argue that the focus on massive amounts of pre-collected data, and the resulting learning
+                                paradigm, where humans demonstrate and robots learn in isolation, is overshadowing a specialized area of
+                                work we term Human-Interactive Robot Learning (HIRL). This paradigm, wherein robots and humans interact
+                                during the learning process, is at the intersection of multiple fields (AI, robotics, human–computer interaction,
+                                design and others) and holds unique promise. Using HIRL, robots can achieve greater sample efficiency (as
+                                humans can provide task knowledge through interaction), align with human preferences (as humans can guide
+                                the robot behavior toward their expectations), and explore more meaningfully and safely (as humans can utilize
+                                domain knowledge to guide learning and prevent catastrophic failures). This can result in robotic systems that
+                                can more quickly and easily adapt to new tasks in human environments. The objective of this article is to
+                                provide a broad and consistent overview of HIRL research and to guide researchers toward understanding the scope of HIRL, and current open or underexplored challenges related to four themes—namely, human, robot
+                                learning, interaction, and broader context. The article includes concrete use cases to illustrate the interaction
+                                between these challenges and inspire further research according to broad recommendations and a call for
+                                action for the growing HIRL community.</p>
+                        </div>
+                        <div class="pub-bibtex">
+                            <pre>@article{baraka2026hirl,
+  title={Human-Interactive Robot Learning: Definition, Challenges, and Recommendations},
+  author={Baraka, Kim and Idrees, Ifrah and Faulkner, Taylor Kessler and others},
+  journal={ACM Transactions on Human-Robot Interaction},
+  volume={15},
+  number={2},
+  year={2026}
+}</pre>
+                        </div>
+                    </div>
+                </li>
+                <li class="pub-item" data-type="workshop">
+                    <div class="pub-thumb"><img src="images/Screenshot.png"></div>
+                    <div class="pub-details">
+                        <h3 class="pub-title">Building Each Other Up: Using Variation Theory to Build and Correct Human Mental Models of Robots</h3>
+                        <p class="pub-authors"><strong>Tiffany Horter</strong></p>
+                        <p class="pub-venue">HRI Pioneers @ Human-Robot Interaction Conference, 2024</p>
+                        <div class="pub-links">
+                            <button class="pub-abstract-toggle">Abstract</button>
+                            <a href="https://dl.acm.org/doi/abs/10.1145/3610978.3638358?download=true">Paper</a>
+                            <a href="https://www.linkedin.com/posts/human-robot-interaction-pioneers_hripioneers2024-hri2024-activity-7161361029354897410-YpdD">Video</a>
+                            <button class="pub-bibtex-toggle">BibTeX</button>
+                        </div>
+                        <div class="pub-abstract">
+                            <p>As we begin to coexist with robots, we must be able to anticipate each other’s future actions to avoid dangerous or inefficient situations. How can we build up human and robot conceptual models to predict how each other will behave? To do this, I study how to apply human concept learning theories, like variation theory, to human-robot interaction. I have found that the contrast step of variation theory (showing contrasting examples of policies when learning about robot motions) improves people’s ability to predict motion in unseen settings. For my proposed PhD, I seek to connect this idea of improving a human’s model of the robot with enabling the robot to correct the human’s model or alter its own behavior based on its model of the shortcomings in the human’s understanding.</p>
+                        </div>
+                        <div class="pub-bibtex">
+                            <pre> @inproceedings{10.1145/3610978.3638358,
+                            abbr={HRI Pioneers},
+                            title = {Building Each Other Up: {{Using}} Variation Theory to Build and Correct Human Mental Models of Robots},
+                            booktitle = {Companion of the 2024 {{ACM}}/{{IEEE}} International Conference on Human-Robot Interaction},
+                            author = {Horter, Tiffany},
+                            year = {2024},
+                            series = {Hri '24},
+                            pages = {103--105},
+                            publisher = {Association for Computing Machinery},
+                            address = {New York, NY, USA},
+                            doi = {10.1145/3610978.3638358},
+                            isbn = {9798400703232},
+                            pdf = {https://dl.acm.org/doi/abs/10.1145/3610978.3638358?download=true},
+                            keywords = {cognitive science,mental models,robot motion,variation theory},
+                                } </pre>
+                        </div>
+                    </div>
+                </li>
+                <li class="pub-item" data-type="workshop">
+                    <div class="pub-thumb"></div>
+                    <div class="pub-details">
+                        <h3 class="pub-title">Getting In Your Robot’s Head: Building Mental Models of Robots Using Human-Concept Learning</h3>
+                        <p class="pub-authors"><strong>Tiffany Horter</strong>, Vinitha Gadiraju, Serena Booth, and Julie A. Shah</p>
+                        <p class="pub-venue">Wellesley Senior Thesis, 2024</p>
+                        <div class="pub-links">
+                            <button class="pub-abstract-toggle">Abstract</button>
+                            <a href="https://repository.wellesley.edu/node/49369">Paper</a>
+                            <a href="#">Slides</a>
+                            <button class="pub-bibtex-toggle">BibTeX</button>
+                        </div>
+                        <div class="pub-abstract">
+                            <p>To collaborate effectively and safely with machine partners, it is essential to understand and be able to predict how they will behave. This thesis explores how using variation theory [1], a human-concept learning theory from cognitive science, to select training demonstrations of agent/robot behavior impacts people’s understanding of how the agent will act. By helping people improve their mental model of the artificial agents they interact with, the goal is to improve people’s ability to predict their particular machine’s behavior. To best teach people a concept, variation theory proposes a teaching method composed of four steps: familiarization, contrast, generalization, and fusion [1]. In prior work [2], the contrast step was compared to familiarization in the domain of a robotic arm’s movement, and results suggested that contrast particularly helped people’s understanding in unseen scenarios. In this study, the first three steps of variation were tested to determine which steps are most beneficial to human’s learning of an agent’s behavior in a self-driving domain and which, therefore, should be prioritized when training. To test differences in participants’ ability to predict across these different teaching methods, a user study was run to establish the efficacy of each method by using each method to train people on various policies of a self-driving car’s motion. Results suggested that being shown the combined steps of variation theory improve people’s ability to predict agent behavior, especially in scenarios they were trained with. However, the step of generalization was particularly helpful for scenarios that subjects had not encountered, improving accuracy from familiarization by 9%. Using the full steps of variation theory also increased people’s trust in the agent, but results appeared to be policy-dependent. Interestingly, trust in the agent appears separate from people’s true understanding of the agent’s policy – though contrast had the lowest overall correctness, people trained with that method had the highest trust in their agent at 65.9%.</p>
+                        </div>
+                        <div class="pub-bibtex">
+                            <pre>@phdthesis{Horter.2024,
+  title = {Getting {{In Your Robot}}'s {{Head}}: {{Building Mental Models}} of {{Robots Using Human-Concept Learning}}},
+  author = {Horter, Tiffany, and Gadiraju, Vinitha and Booth, Serena and Shah, Julie A.},
+  year = {2024},
+  school = {Wellesley College},
+  url = {https://repository.wellesley.edu/node/49369},
+}</pre>
+                        </div>
+                    </div>
+                </li>
+                <li class="pub-item" data-type="workshop">
+                    <div class="pub-thumb"><img src="images/robot_motion.gif"></div>
+                    <div class="pub-details">
+                        <h3 class="pub-title">Varying How We Teach: Adding Contrast Helps Humans Learn about Robot Motions</h3>
+                        <p class="pub-authors"><strong>Tiffany Horter</strong>, Elena L. Glassman, Julie Shah, and Serena Booth.</p>
+                        <p class="pub-venue">Workshop on Human-Interactive Robot Learning @ Human-Robot Interaction Conference, 2023</p>
+                        <div class="pub-links">
+                            <button class="pub-abstract-toggle">Abstract</button>
+                            <a href="https://glassmanlab.seas.harvard.edu/papers/HRI_2023_HIRL_Workshop__Learning_about_Robot_Motions_with_Variation_Theory.pdf">Paper</a>
+                            <button class="pub-bibtex-toggle">BibTeX</button>
+                        </div>
+                        <div class="pub-abstract">
+                            <p>Learning how robots move is difficult, but theories of human concept learning can be applied to support humans in this task. We draw insights from the Variation Theory of Learning, a theory that has been validated in the learning sciences through decades of classroom- based studies. Variation Theory prescribes experiencing patterns of structured variation, where some aspects of concepts are held constant while other aspects vary. The result of experiencing these structured patterns is that human learners develop accurate and flexible conceptual models. Through a preliminary study, we show that using insights from Variation Theory improves humans’ ability to predict robot motions: accuracy in predicting motions increases from 52.4% using a familiarization-based strategy to 70.2% using a Variation-based strategy. Applying Variation Theory especially increases the human’s accuracy in predicting robot motions in novel settings (increasing from 50.0% to 72.4% accuracy).</p>
+                        </div>
+                        <div class="pub-bibtex">
+                            <pre> @inproceedings{HorterEtAl.a,
+  title = {Varying {{How We Teach}}: {{Adding Contrast Helps Humans Learn}} about {{Robot Motions}}},
+  booktitle = {2023 {{HRI Workshop}} on {{Human-Interactive Robot Learning}}},
+  year = 2023,
+  author = {Horter, Tiffany and Glassman, Elena L. and Shah, Julie and Booth, Serena},
+  pdf = {https://glassmanlab.seas.harvard.edu/papers/HRI_2023_HIRL_Workshop__Learning_about_Robot_Motions_with_Variation_Theory.pdf},
+}</pre>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <a href="projects/example-project.html" style="text-decoration:none;color:inherit">
+                        <div class="project-img"><img src="images/robotcar.png" alt="Self-driving Mini car"></div>
+                        <div class="project-body">
+                            <h3>Self-driving Car</h3>
+                            <p>Built a self-driving race-car for MIT competition. Came second place in the race.</p>
+                            <div class="project-tags">
+                                <span>Python</span><span>PyTorch</span><span>Robotics</span><span>ROS</span>
+                            </div>
+                            <div class="project-links">
+                                <span class="project-detail-link">View details &rarr;</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <!--
+                <article class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-body">
+                        <h3>Project Name Two</h3>
+                        <p>Another project description. Highlight what makes it interesting and any adoption or citations.</p>
+                        <div class="project-tags">
+                            <span>TypeScript</span><span>React</span><span>Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">GitHub</a>
+                            <a href="#">Live Site</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-body">
+                        <h3>Project Name Three</h3>
+                        <p>Description of a third project. Could be an open-source tool, a dataset, or a research artifact.</p>
+                        <div class="project-tags">
+                            <span>C++</span><span>CUDA</span><span>Systems</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">GitHub</a>
+                            <a href="#">Docs</a>
+                        </div>
+                    </div>
+                </article>
+                -->
+            </div>
+        </section>
+
+        <section id="writings">
+            <h2>Writings</h2>
+            <ul class="writing-list">
+                <li>
+                    <a href="https://www.cs.ox.ac.uk/news/2491-full.html" class="writing-item">
+                        <time>October 2025</time>
+                        <div>
+                            <h3>DPhil the Future: Why We Need Fallible Humans in AI Alignment</h3>
+                            <p>An article for Oxford news considering why taking into account human's ability to make mistakes is key for AI alignment.</p>
+                        </div>
+                    </a>
+                </li>
+                <!--
+                <li>
+                    <a href="writings/example-post.html" class="writing-item">
+                        <time>Feb 2026</time>
+                        <div>
+                            <h3>A Blog Post About Something Technical</h3>
+                            <p>A short summary of the post — what question it answers or what insight it offers.</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="writing-item">
+                        <time>Nov 2025</time>
+                        <div>
+                            <h3>Notes on a Topic You've Been Thinking About</h3>
+                            <p>Brief description of the notes — could be a tutorial, explainer, or opinion piece.</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="writing-item">
+                        <time>Jul 2025</time>
+                        <div>
+                            <h3>Reflections on Your Research Journey</h3>
+                            <p>A more personal piece about lessons learned, advice, or observations.</p>
+                        </div>
+                    </a>
+                </li>
+                -->
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Tiffany Horter</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
