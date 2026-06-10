@@ -35,13 +35,14 @@
                 <p class="subtitle">PhD Student in Computer Science</p>
                 <p class="affiliation">University of Oxford &middot; Department of Computer Science</p>
                 <p class="bio">
-                    I am a PhD student researcher working on human-AI and human-robot interaction. Currently, I am advised by
+                    I am a PhD candidate researching AI alignment and human-robot interaction. </p>
+                <p> Currently, I am advised by
                     <a href="https://www.cs.ox.ac.uk/people/niki.trigoni/">Prof. Niki Trigoni</a> and <a href="https://www.cs.ox.ac.uk/people/andrew.markham/">Andrew Markham</a> and collaborate with <a href="https://slbooth.com">Prof. Serena Booth</a>. Formerly at
                     <a href="https://interactive.mit.edu">MIT's Interactive Robotics Group</a>,
                     <a href="https://www.wellesley.edu/academics/department/computer-science">Wellesley</a>, and intern at Microsoft.
                 </p>
 
-                <p> I’m open to opportunities, collaborations and research discussions. Feel free to reach out!</p>
+                <p> <br> I’m open to opportunities and research discussions. Please reach out!</p>
                 <div class="hero-links">
                     <a href="https://scholar.google.com/citations?user=fiRwmhkAAAAJ" class="link-pill">Google Scholar</a>
                     <a href="https://www.linkedin.com/in/tiffany-horter" class="link-pill">LinkedIn</a>
@@ -112,18 +113,36 @@
                 <button class="filter-btn" data-filter="conference">Conference</button>
                 <button class="filter-btn" data-filter="journal">Journal</button>
                 <button class="filter-btn" data-filter="workshop">Workshop</button>
+                <button class="filter-btn" data-filter="under-review">Under Review</button>
             </div>
 
             <ul class="pub-list">
-                <li class="pub-item" data-type="conference">
-                    <div class="pub-thumb"></div>
+                <li class="pub-item" data-type="under-review">
+                    <div class="pub-thumb"><img src="images/AltReward.png" class="thumb-left"></div>
                     <div class="pub-details">
+                        <span class="pub-type">Under Review</span>
+                        <h3 class="pub-title">Mitigating Cognitive Bias in RLHF by Altering Rationality</h3>
+                        <p class="pub-authors"><strong>Tiffany Horter</strong>, Andrew Markham, Niki Trigoni, Serena Booth.</p>
+                        <p class="pub-venue">Under review, 2026</p>
+                        <div class="pub-links">
+                            <button class="pub-abstract-toggle">Abstract</button>
+                            <a href="https://arxiv.org/pdf/2605.06895">Paper</a>
+                        </div>
+                        <div class="pub-abstract">
+                            <p>How can we make models robust to even imperfect human feedback? In reinforcement learning from human feedback (RLHF), human preferences over model outputs are used to train a reward model that assigns scalar values to responses. Because these rewards are inferred from pairwise comparisons, this learning depends on an assumed relationship between latent reward differences and observed preferences, typically modeled using a Boltzmann formulation in which a rationality parameter beta informs how consistently preferences reflect reward differences. In practice, beta is typically treated as a fixed constant that reflects assumed uniform annotator reliability. However, human feedback is not this simplistic in practice: real human judgments are shaped by cognitive biases, leading to systematic deviations from reward-consistent behavior that arise contextually. To address this, we treat rationality as context- and annotation-dependent. We design an approach to dynamically adjust the rationality parameter beta during reward learning using an LLM-as-judge to assess the likely presence of cognitive biases. This approach effectively downweights comparisons that are likely to reflect biased or unreliable judgments. Empirically, we show that this approach learns a more rational downstream model, even when finetuning on datasets with strongly biased preferences.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="pub-item" data-type="conference">
+                    <div class="pub-thumb"><img src="images/override.png" class="thumb-left"></div>
+                    <div class="pub-details">
+                        <span class="pub-type">Conference</span>
                         <h3 class="pub-title">Should Robots Comply with Our Instructions or Intentions?</h3>
                         <p class="pub-authors"><strong>Tiffany Horter</strong>, Andrew Markham, Niki Trigoni, Serena Booth.</p>
                         <p class="pub-venue">Human Robot Interaction Conference, 2026</p>
                         <div class="pub-links">
                             <button class="pub-abstract-toggle">Abstract</button>
-                            <a href="#">Paper</a>
+                            <a href="https://dl.acm.org/doi/10.1145/3757279.3785553">Paper</a>
                             <button class="pub-bibtex-toggle">BibTeX</button>
                         </div>
                         <div class="pub-abstract">
@@ -135,8 +154,9 @@
                     </div>
                 </li>
                 <li class="pub-item" data-type="journal">
-                    <div class="pub-thumb"></div>
+                    <div class="pub-thumb"><img src="images/HIRL-positioning.png"></div>
                     <div class="pub-details">
+                        <span class="pub-type">Journal</span>
                         <h3 class="pub-title">Human-Interactive Robot Learning: Definition, Challenges, and Recommendations</h3>
                         <p class="pub-authors">Kim Baraka, Ifrah Idrees, Taylor Kessler Faulkner, Erdem Biyik, Serena Both, Mohamed Chetouani, Daniel H. Grollman, Akanksha Saran, Emmanuel Senft, Silvia Tulli, Anna-Lisa Vollmer, Antonio Andriella, Helen Beierling, <strong>Tiffany Horter</strong>, Jens Kober, Isaac Sheidlower, Matthew E. Taylor, Sanne Van Waveren, Xuesu Xiao</p>
                         <p class="pub-venue">Transactions on Human-Robot Interaction, Vol.15, No. 2, 2026.</p>
@@ -179,6 +199,7 @@
                 <li class="pub-item" data-type="workshop">
                     <div class="pub-thumb"><img src="images/Screenshot.png"></div>
                     <div class="pub-details">
+                        <span class="pub-type">Workshop</span>
                         <h3 class="pub-title">Building Each Other Up: Using Variation Theory to Build and Correct Human Mental Models of Robots</h3>
                         <p class="pub-authors"><strong>Tiffany Horter</strong></p>
                         <p class="pub-venue">HRI Pioneers @ Human-Robot Interaction Conference, 2024</p>
@@ -213,6 +234,7 @@
                 <li class="pub-item" data-type="workshop">
                     <div class="pub-thumb"></div>
                     <div class="pub-details">
+                        <span class="pub-type">Workshop</span>
                         <h3 class="pub-title">Getting In Your Robot’s Head: Building Mental Models of Robots Using Human-Concept Learning</h3>
                         <p class="pub-authors"><strong>Tiffany Horter</strong>, Vinitha Gadiraju, Serena Booth, and Julie A. Shah</p>
                         <p class="pub-venue">Wellesley Senior Thesis, 2024</p>
@@ -239,6 +261,7 @@
                 <li class="pub-item" data-type="workshop">
                     <div class="pub-thumb"><img src="images/robot_motion.gif"></div>
                     <div class="pub-details">
+                        <span class="pub-type">Workshop</span>
                         <h3 class="pub-title">Varying How We Teach: Adding Contrast Helps Humans Learn about Robot Motions</h3>
                         <p class="pub-authors"><strong>Tiffany Horter</strong>, Elena L. Glassman, Julie Shah, and Serena Booth.</p>
                         <p class="pub-venue">Workshop on Human-Interactive Robot Learning @ Human-Robot Interaction Conference, 2023</p>

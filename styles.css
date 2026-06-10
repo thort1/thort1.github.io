@@ -233,7 +233,7 @@ img {
 /* ── Sections ─────────────────────────────────────────── */
 
 section {
-    padding: var(--space-2xl) 0;
+    padding: var(--space-md) 0 var(--space-xl);
     border-bottom: 1px solid var(--color-border);
 }
 
@@ -246,7 +246,7 @@ h2 {
     font-size: 1.4rem;
     font-weight: 700;
     color: var(--color-heading);
-    margin-bottom: var(--space-xl);
+    margin-bottom: var(--space-lg);
     letter-spacing: -0.02em;
 }
 
@@ -324,7 +324,7 @@ h2 {
     gap: var(--space-lg);
     background: var(--color-card);
     border: 1px solid var(--color-border);
-    border-top: 4px solid var(--color-accent);
+    border-top: 4px solid var(--type-color, var(--color-accent));
     border-radius: var(--radius);
     padding: var(--space-lg);
     transition: box-shadow 0.2s;
@@ -338,9 +338,30 @@ h2 {
     display: none;
 }
 
+/* Contribution-type colour coding */
+.pub-item[data-type="conference"]   { --type-color: #8b6914; --type-tint: rgba(139, 105, 20, 0.09); }
+.pub-item[data-type="journal"]      { --type-color: #2f6f5e; --type-tint: rgba(47, 111, 94, 0.09); }
+.pub-item[data-type="workshop"]     { --type-color: #a85432; --type-tint: rgba(168, 84, 50, 0.09); }
+.pub-item[data-type="under-review"] { --type-color: #7a6a55; --type-tint: rgba(122, 106, 85, 0.09); }
+
+.pub-type {
+    display: inline-block;
+    margin-bottom: var(--space-sm);
+    padding: 2px 10px;
+    border: 1px solid var(--type-color, var(--color-accent));
+    border-radius: 100px;
+    background: var(--type-tint, transparent);
+    color: var(--type-color, var(--color-accent));
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
 .pub-thumb {
     flex-shrink: 0;
-    width: 120px;
+    width: 150px;
     height: 80px;
     background: var(--color-border);
     border-radius: 4px;
@@ -350,7 +371,11 @@ h2 {
 .pub-thumb img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+.pub-thumb img.thumb-left {
+    object-position: left;
 }
 
 .pub-details {
